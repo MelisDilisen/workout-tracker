@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Workout Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Workout Tracker, this React-based application helps you keep track of your workout plans efficiently. Whether you're hitting the gym or working out at home, this app makes it easy to organize your exercises and monitor your progress.
 
-## Available Scripts
+<img width="700" alt="WorkOutTrackerApp" src="https://github.com/MelisDilisen/lotr-menu/assets/87231771/0b9e8c47-3d36-42f9-8cd7-77996ca05fc1">
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Exercise Tracking**: Write down the exercises you plan to do, including the number of sets or repetitions.
+- **Workout Planning**: Create your workout plan by listing all the exercises you want to include.
+  <img width="500" alt="CreateList" src="https://github.com/MelisDilisen/lotr-menu/assets/87231771/6148adb1-03b6-416b-a71f-08c50716fec5">
+- **Progress Tracking**: Easily mark exercises as completed and track your progress.
+  <img width="500" alt="TrackingWorkout" src="https://github.com/MelisDilisen/lotr-menu/assets/87231771/b6146d1a-61fd-4c2e-8766-1fffe29c7b21">
+- **Sorting Options**: Sort your exercises by input order, alphabetical order, or by their completion status.
+  <img width="500" alt="sortByDone" src="https://github.com/MelisDilisen/lotr-menu/assets/87231771/8ccb779c-331a-4250-8eb8-425eb3c7729f">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Clear List**: Clear your workout plan with a single click once you've completed your session.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get started with Workout Tracker, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**: Clone this repository to your local machine using git clone command
+2. **Install Dependencies**: Navigate to the project directory and run `npm install` to install all required dependencies.
+3. **Start the Application**: Run `npm start` to start the application. The app should open automatically in your default browser.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once the application is running, you can start using Workout Tracker:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Add Exercises**: Enter the exercises you want to do in the input field, and select any the sets and repetitions from the dropdown menu. When you are finished with them, click on the "Add" button.
+   ![CreatingWorkout](https://github.com/MelisDilisen/lotr-menu/assets/87231771/41a10a5a-686b-4552-8583-b4b412d3ae2d)
+2. **Organize Your Workout Plan**: Use the sorting options to organize your exercises based on your preference, by using the Sort By drodown menu below the exercise list.
+   ![Filters](https://github.com/MelisDilisen/lotr-menu/assets/87231771/821b59c0-22b3-4616-bc77-493377540d53)
+3. **Track Your Progress**: As you complete each exercise, simply cross it off the list, by clicking on their checkbox and check your progress from the footer.
+   ![CrossingItems](https://github.com/MelisDilisen/lotr-menu/assets/87231771/1a858db2-4e84-4816-83d2-b8c2d07a29c9)
+   ![CompletingTheWorkout](https://github.com/MelisDilisen/lotr-menu/assets/87231771/564d7a2f-ea6e-4f4b-bd76-4661c79988dd)
+4. **Clear Your List**: Once you've finished your workout, click on the "Clear List" button to reset your plan.
+   ![ClearList](https://github.com/MelisDilisen/lotr-menu/assets/87231771/d89f96a0-667f-4c21-a0b3-ff5df4ac9110)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
